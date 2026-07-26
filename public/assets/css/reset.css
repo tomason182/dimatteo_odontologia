@@ -1,0 +1,18 @@
+/* Hace que el padding y border no alteren el ancho final del elemento */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Evita saltos raros en imágenes y medios */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
