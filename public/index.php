@@ -8,8 +8,10 @@
 
   <main>
 
-    <?php include "../app/Views/hero.php" ?>
-    <?php include "../app/Views/brands.php" ?>
+    <?php include "../app/Views/hero.php"; ?>
+
+    <?php include "../app/Views/stats.php"; ?>
+    <?php include "../app/Views/brands.php"; ?>
 
 
   </main>

@@ -4,12 +4,12 @@
 
     <h2 class="section-title">Nuestras marcas</h2>
 
-    <div class="brand-card left">
+    <div class="brand-card">
 
       <div class="brand-card__image">
 
         <img
-          src="/assets/img/brands/saevo.jpeg"
+          src="/assets/img/hero/sillon_gpt.png"
           alt="Saevo by Gnatus">
 
       </div>
@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="brand-card right">
+    <div class="brand-card">
 
       <div class="brand-card__content">
 
@@ -100,7 +100,7 @@
       <div class="brand-card__image">
 
         <img
-          src="/assets/img/brands/d700.png"
+          src="/assets/img/hero/sillon_gpt.png"
           alt="D700 Solução Inteligente">
 
       </div>
