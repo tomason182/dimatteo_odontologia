@@ -85,7 +85,7 @@
 
 /* Stats */
 .stats {
-  padding: 4rem 0;
+  padding: 0;
   background: #fff;
 }
 
@@ -182,6 +182,43 @@
 .brand-card .btn {
   margin-top: .5rem;
   float: right;
+}
+
+/* ABOUT US */
+.about-us__card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.about-us__content {
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 0rem;
+}
+
+.about-us__content p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--text-color-light);
+  margin-bottom: 1.5rem;
+}
+
+.about-us__card {
+  padding: 2.5rem;
+  background-color: #fff;
+  border-radius: 18px;
+  border: 1px solid #ececec;
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease,
+    border-color .25s ease
+}
+
+.about-us__card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(37, 99, 235, .2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 900px) {

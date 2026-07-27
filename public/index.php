@@ -12,6 +12,7 @@
 
     <?php include "../app/Views/stats.php"; ?>
     <?php include "../app/Views/brands.php"; ?>
+    <?php include "../app/Views/about_us.php"; ?>
 
 
   </main>
