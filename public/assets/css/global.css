@@ -2,9 +2,9 @@
   /* Paleta de colores */
   --primary: #2563eb;
   --primary-hover: #1d4ed8;
-  --text-color: #1e293b;
+  --text-color: #000000;
   --text-color-light: #555;
-  --text-color-m: #333;
+  --text-color-m: #222;
   --bg-color: #f8fafc;
   --surface-color: #ffffff;
   --border-color: #e2e8f0;
@@ -23,7 +23,7 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 
   /* Variables  */
-  --header-height: 60px;
+  --header-height: 100px;
 }
 
 html {
@@ -44,11 +44,11 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 }
 
 
