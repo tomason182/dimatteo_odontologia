@@ -6,7 +6,7 @@
 
   <?php include "../app/Views/header.php"; ?>
 
-
+  <script src="assets/js/main.js"></script>
 </body>
 
 
