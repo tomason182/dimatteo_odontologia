@@ -9,6 +9,7 @@
   <main>
 
     <?php include "../app/Views/hero.php" ?>
+    <?php include "../app/Views/brands.php" ?>
 
 
   </main>

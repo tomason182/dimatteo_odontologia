@@ -44,7 +44,6 @@
 
 }
 
-
 .hero_eyebrow {
   display: inline-block;
   color: var(--color-primary);
@@ -81,6 +80,83 @@
 .hero_btn:hover {
   text-decoration: none;
   opacity: 0.8;
+}
+
+
+/* Brands */
+.brand-card {
+  display: grid;
+  gap: 5rem;
+  align-items: center;
+  padding: 4rem;
+
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, .06);
+
+}
+
+.brand-card.left {
+  grid-template-columns: 340px 1fr;
+}
+
+.brand-card.right {
+  grid-template-columns: 1fr 340px;
+}
+
+.brand-card__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-card__image img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 18px;
+}
+
+.brand-card__subtitle {
+  display: inline-block;
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.brand-card__title {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.brand-card__content p {
+  color: var(--color-text-light);
+  line-height: 1.8;
+  font-size: 0.8rem;
+
+  margin-bottom: 1.5rem
+}
+
+.brand-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0
+}
+
+.brand-card__badges span {
+  padding: .7rem 1.1rem;
+  border-radius: 999px;
+  background: #eef4ff;
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: .7rem;
+}
+
+.brand-card .btn {
+  margin-top: .5rem;
 }
 
 
