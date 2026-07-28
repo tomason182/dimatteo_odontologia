@@ -17,6 +17,8 @@
 
   </main>
 
+  <?php include "../app/Views/footer.php"; ?>
+
   <script src="assets/js/main.js"></script>
 </body>
 

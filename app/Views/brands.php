@@ -58,7 +58,13 @@
     </div>
 
     <div class="brand-card">
+      <div class="brand-card__image">
 
+        <img
+          src="/assets/img/hero/sillon_gpt.png"
+          alt="D700 Solução Inteligente">
+
+      </div>
       <div class="brand-card__content">
 
         <span class="brand-card__subtitle">
@@ -97,13 +103,7 @@
         </a>
 
       </div>
-      <div class="brand-card__image">
 
-        <img
-          src="/assets/img/hero/sillon_gpt.png"
-          alt="D700 Solução Inteligente">
-
-      </div>
 
     </div>
 

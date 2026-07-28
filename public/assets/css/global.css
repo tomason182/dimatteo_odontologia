@@ -24,7 +24,7 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 
   /* Variables  */
-  --header-height: 100px;
+  --header-height: 80px;
 }
 
 html {
@@ -115,12 +115,12 @@ li {
   align-items: center;
   justify-content: center;
   gap: .5rem;
-  padding: .95rem 1.8rem;
+  padding: .85rem 1.8rem;
   border: 2px solid transparent;
   border-radius: 12px;
   background-color: var(--primary);
   color: #fff;
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
