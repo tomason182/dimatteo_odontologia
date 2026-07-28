@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace app\Repositories;
+namespace App\Repositories;
 
-use app\Entities\Chair;
+use App\Entities\Chair;
 
 interface ChairRepository
 {

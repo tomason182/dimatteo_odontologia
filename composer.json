@@ -1,0 +1,16 @@
+{
+  "name": "tomas/dimatteo_odontologia",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Tomas"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "App\\": "/app"
+    }
+  },
+  "require": {}
+}
