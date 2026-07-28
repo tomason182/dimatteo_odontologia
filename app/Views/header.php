@@ -16,8 +16,9 @@
 
     <nav class="nav">
       <ul class="nav_list">
-        <li><a href="#">Saevo</a></li>
-        <li><a href="#">D700</a></li>
+        <li><a href="<?= route("saevo"); ?>" class="<?= $page === "saevo" ? "active" : ""; ?>">Saevo</a></li>
+
+        <li><a href=" /?page=d700">D700</a></li>
         <li><a href="#">Servicio Técnico</a></li>
         <li><a href="#">Nosotros</a></li>
         <li><a href="#">FAQ</a></li>

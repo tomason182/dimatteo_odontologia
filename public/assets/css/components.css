@@ -50,6 +50,10 @@
   transition: color .25s;
 }
 
+.nav_list a.active {
+  color: var(--primary);
+}
+
 .nav_list a:hover {
 
   color: var(--primary)
@@ -132,10 +136,10 @@
 }
 
 .hero_btn {
-  border: 1px solid var(--primary);
-  padding: 0.75rem 0.5rem;
-  color: var(--primary);
-  border-radius: 1rem;
+  border: 1px solid #333;
+  padding: 0.75rem 1.5rem;
+  color: #111;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 0.7rem;
   font-weight: 500;
@@ -143,6 +147,7 @@
 
 .hero_btn:hover {
   text-decoration: none;
+  box-shadow: 1px -1px 0px rgba(0, 0, 0, .2);
 }
 
 /* Stats */

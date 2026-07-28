@@ -1,0 +1,335 @@
+[
+  {
+    "slug": "s203",
+    "brand": "saevo",
+    "name": "S203",
+    "description": "",
+    "shortDescription": "",
+    "heroImage": "",
+    "gallery": [],
+    "catalogPdf": "",
+    "technicalSpecifications": {
+      "General": {
+        "Alimentación": "127/220 V seleccionable internamente",
+        "Frecuencia": "50/60 Hz",
+        "Tipo de protección descarga eléctrica": "Equipamiento de Clase 1",
+        "Grado de protección contra descarga eléctrica": "Parte aplicada de tipo B",
+        "Protección contra pene-tración nociva de agua": [
+          "IPX 0 – Toda la silla odontológica, con excepción del pedal de comando",
+          "IPX1 – Pedal de comando"
+        ],
+        "Potencia de entrada": "200VA",
+        "Fusibles de protección": "F1 e F2 (127/220 V~ seleccionable) = 5A – acción retardada",
+        "Capacidad de levantamiento": "Carga distribuida de 250 kg (peso de los pacientes + equipo y accesorios)",
+        "Peso Neto": "107 kg",
+        "Peso Bruto": "129 kg"
+      }
+    },
+    "features": {
+      "Sillón dental": [
+        {
+          "description": "Base con borde antideslizante; no es necesario fijarla al suelo"
+        },
+        {
+          "description": "Estructura construida en acero macizo, con tratamiento antioxidante y pintado en pintura epoxi, proporcionando más resistencia y durabilidad al conjunto"
+        },
+        {
+          "description": "Sistema de elevación pantográfica en chapa de acero, ofrece más resistencia, y capacidad de elevación de hasta 200 kg"
+        },
+        {
+          "description": "Caja de conexiones integrada, optimizando el espacio dentro del consultorio"
+        },
+        {
+          "description": "Cuenta con el botón ON/OFF ubicado en el lateral de la base del sillón, facilitando el acceso del profesional"
+        },
+        {
+          "description": "Tapicería disponible en 15 opciones de color"
+        },
+        {
+          "description": "Brazo de apoyo al paciente fijo"
+        },
+        {
+          "description": "Sistema de elevación electromecánico accionado por un motorreductor de baja tensión de 24 voltios"
+        },
+        {
+          "description": "Tensión de alimentación 127 o 220V ~ 50/60Hz"
+        },
+        {
+          "description": "Respaldo de cabezas anatómico, extraíble, biarticulado, regulable en altura con movimientos anteriores, posteriores y longitudinales y sistema de bloqueo por palanca."
+        },
+        {
+          "description": "Ambidiestro"
+        }
+      ],
+      "Pedal": [
+        {
+          "description": "Pedal de control multifuncional para accionar el sillón y reflector"
+        },
+        {
+          "description": "Movimientos de elevación e inclinación automáticos y sincronizados"
+        },
+        {
+          "description": "Posiciones de trabajo programables"
+        },
+        {
+          "description": "Opción “retorno a cero” para volver directamente a la posición inicial"
+        },
+        {
+          "description": "El reflector se apaga automáticamente al presionar «retorno a cero»"
+        },
+        {
+          "description": "Protección del sistema eléctrico contra fluctuaciones de voltaje y corriente"
+        }
+      ],
+      "Módulo dental": [
+        {
+          "description": "Fabricado en ABS inyectado: proporciona más durabilidad/resistencia a la corrosión y estabilidad de color"
+        },
+        {
+          "description": "Brazo articulados con bloqueo neumático, activados por un botón ubicado debajo del módulo dental en el mango lateral, proporcionando libertad de movimiento"
+        },
+        {
+          "description": "Pedal progresivo para la activación de las piezas de mano en los terminales, que permite el control de la velocidad y la activación en cualquier punto"
+        },
+        {
+          "description": "Jeringa triple: Boquilla giratoria, extraíble y autoclavable"
+        },
+        {
+          "description": "Mangueras: redondeadas, ligeras y flexibles"
+        },
+        {
+          "description": "Soporte de puntas: con accionamiento neumático individual"
+        },
+        {
+          "description": "Tapa de acero inoxidable extraíble: fácil de limpiar. Garantiza más practicidad y resistencia a la corrosión"
+        },
+        {
+          "description": "Asas bilaterales con accionamiento neumático"
+        },
+        {
+          "description": "Panel PAD que activa todos los controles del sillón y reflector"
+        }
+      ],
+      "Unidad de agua": [
+        {
+          "description": "Fabricado en ABS inyectado: proporciona más durabilidad/resistencia a la corrosión y estabilidad de color"
+        },
+        {
+          "description": "Escupidera: extraíble, con filtro para retención de sólidos"
+        },
+        {
+          "description": "Filtro de residuos ubicado en la base del aspirador"
+        },
+        {
+          "description": "Sistema de regulación del caudal de agua"
+        },
+        {
+          "description": "Botellas translúcidas de 1000 ml para agua de las piezas de mano, jeringa triple y Sistema Flush"
+        },
+        {
+          "description": "Sistema Flush para desinfección interna de mangueras"
+        },
+        {
+          "description": "La unidad de agua puede girar 90º, permitiendo una amplia movilidad para el dentista acercarse al campo operatorio"
+        },
+        {
+          "description": "Portavasos con temporizador de agua programable con interruptor eléctrico (hasta 60 segundos)"
+        },
+        {
+          "description": "Sensor de proximidad: exclusivo sensor de proximidad que acciona automáticamente el flujo de agua en la escupidera, proporcionando más practicidad, comodidad para el paciente, seguridad y economía de agua"
+        },
+        {
+          "description": "Terminal aspirador Venturi"
+        }
+      ],
+      "Foco Led": [
+        {
+          "description": "Tecnología de iluminación – LED"
+        },
+        {
+          "description": "Menos consumo energético, consume hasta un 95 % menos de energía eléctrica que los modelos convencionales"
+        },
+        {
+          "description": "Más durabilidad de la fuente de luz (LED), hasta 50.000 horas."
+        },
+        {
+          "description": "Sensor de proximidad"
+        },
+        {
+          "description": "El reflector se activa mediante el sensor de proximidad situado en la parte inferior del cabezal, evitando el riesgo de contaminación cruzada"
+        },
+        {
+          "description": "La selección de la intensidad luminosa también se realiza a través del sensor de proximidad"
+        },
+        {
+          "description": "El reflector tiene un sistema electrónico digital interno, que es fácil y rápido de programar"
+        },
+        {
+          "description": "Fuente de luz fría"
+        },
+        {
+          "description": "No genera calor en el campo operatorio"
+        },
+        {
+          "description": "Fuente de luz rectangular"
+        },
+        {
+          "description": "Cuando se coloca correctamente para la iluminación de la boca, no genera molestias en la región ocular del paciente"
+        },
+        {
+          "description": "Aumento del tamaño de la fuente de luz de la cavidad bucal, proporcionando más área de luz en el campo de trabajo"
+        },
+        {
+          "description": "Diseño totalmente innovador con líneas redondeadas, proporciona un aspecto moderno y armonioso y facilita el manejo"
+        },
+        {
+          "description": "Es liviano, tiene alta durabilidad y permite una amplia movilidad en diferentes posiciones"
+        },
+        {
+          "description": "Manijas bilaterales en forma de lazo que permite el aislamiento, evitando el riesgo de contaminación cruzada. Extraíble y esterilizable en autoclave. Permite elegir la posición de acuerdo a la necesidad del profesional"
+        },
+        {
+          "description": "Protector frontal extraíble, fabricado en material resistente y transparente, protege el sistema óptico contra aerosoles"
+        },
+        {
+          "description": "Sensor 3 LEDs"
+        },
+        {
+          "description": "Sistema óptico con 3 LEDs"
+        },
+        {
+          "description": "Tres intensidades: 10.000, 20.000 y 30.000 LUX"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s303",
+    "brand": "saevo",
+    "name": "S303",
+    "description": "",
+    "shortDescription": "",
+    "heroImage": "",
+    "gallery": [],
+    "catalogPdf": "",
+    "technicalSpecifications": {
+      "General": {
+        "Alimentación": "127/220 V seleccionable internamente",
+        "Frecuencia": "50/60 Hz",
+        "Tipo de protección descarga eléctrica": "Equipamiento de Clase 1",
+        "Grado de protección contra descarga eléctrica": "Parte aplicada de tipo B",
+        "Protección contra pene-tración nociva de agua": [
+          "IPX 0 – Toda la silla odontológica, con excepción del pedal de comando",
+          "IPX1 – Pedal de comando"
+        ],
+        "Potencia de entrada": "200VA",
+        "Fusibles de protección": "F1 e F2 (127/220 V~ seleccionable) = 5A – acción retardada",
+        "Capacidad de levantamiento": "Carga distribuida de 250 kg (peso de los pacientes + equipo y accesorios)",
+        "Peso Neto": "107 kg",
+        "Peso Bruto": "129 kg"
+      }
+    },
+    "features": {
+      "Sillón dental": [
+        "Base con borde antideslizante; no es necesario fijarla al suelo",
+        "Estructura construida en acero macizo, con tratamiento antioxidante y pintado en pintura epoxi, proporcionando más resistencia y durabilidad al conjunto",
+        "Sistema de elevación pantográfica en chapa de acero, ofrece más resistencia, y capacidad de elevación de hasta 200 kg",
+        "Caja de conexiones integrada, optimizando el espacio dentro del consultorio",
+        "Cuenta con el botón ON/OFF ubicado en el lateral de la base del sillón, facilitando el acceso del profesional",
+        "Tapicería disponible en 15 opciones de color",
+        "Brazo de apoyo al paciente abatible 90º",
+        "Sistema de elevación electromecánico accionado por un motorreductor de baja tensión de 24 voltios",
+        "Tensión de alimentación 127 o 220V ~ 50/60Hz",
+        "Respaldo de cabezas anatómico, extraíble, biarticulado, regulable en altura con movimientos anteriores, posteriores y longitudinales y sistema de bloqueo por palanca.",
+        "Ambidiestro"
+      ],
+      "Pedal": [
+        "Joystick",
+        "Pedal de control multifuncional para accionar el sillón, unidad de agua, piezas de mano y reflector",
+        "Movimientos de elevación e inclinación automáticos y sincronizados",
+        "Bloqueo de movimientos",
+        "Posicion de escupir y volver a la última posición de trabajo",
+        "Posiciones de trabajo programables",
+        "Opción “retorno a cero” para volver directamente a la posición inicial",
+        "El reflector se apaga automáticamente al presionar «retorno a cero»",
+        "Protección del sistema eléctrico contra fluctuaciones de voltaje y corriente"
+      ],
+      "Módulo dental": [
+        {
+          "texto": "Fabricado en ABS inyectado: proporciona más durabilidad/resistencia a la corrosión y estabilidad de color"
+        },
+        {
+          "texto": "Brazo articulados con bloqueo neumático, activados por un botón ubicado debajo del módulo dental en el mango lateral, proporcionando libertad de movimiento"
+        },
+        {
+          "texto": "Pedal progresivo para la activación de las piezas de mano en los terminales, que permite el control de la velocidad y la activación en cualquier punto"
+        },
+        {
+          "texto": "Jeringa triple: Boquilla giratoria, extraíble y autoclavable"
+        },
+        {
+          "texto": "Mangueras: redondeadas, ligeras y flexibles"
+        },
+        {
+          "texto": "Soporte de puntas: con accionamiento neumático individual"
+        },
+        {
+          "texto": "Tapa de acero inoxidable extraíble: fácil de limpiar. Garantiza más practicidad y resistencia a la corrosión"
+        },
+        {
+          "texto": "Asas bilaterales con accionamiento neumático"
+        },
+        {
+          "texto": "Sistema flush para desinfección interna de las mangueras"
+        },
+        {
+          "texto": "Panel PAD con negatoscopio que activa todos los controles del sillón, módulo dental, unidad de agua y reflector:",
+          "items": [
+            "Movimientos del asiento",
+            "Movimientos del respaldo",
+            "Posición de retorno a cero",
+            "Posiciones de trabajo",
+            "Reflector",
+            "Jeringa Triple",
+            "Terminales para Alta Rotación (Borden o Midwest)",
+            "Terminal para Baja Rotación (Borden o Midwest)"
+          ]
+        }
+      ],
+      "Unidad de agua": [
+        "Fabricado en ABS inyectado: proporciona más durabilidad/resistencia a la corrosión y estabilidad de color",
+        "Escupidera: extraíble, con filtro para retención de sólidos",
+        "Filtro de residuos ubicado en la base del aspirador",
+        "Sistema de regulación del caudal de agua",
+        "Botellas translúcidas de 1000 ml para agua de las piezas de mano, jeringa triple y Sistema Flush",
+        "Sistema Flush para desinfección interna de mangueras",
+        "La unidad de agua puede girar 90º, permitiendo una amplia movilidad para el dentista acercarse al campo operatorio",
+        "Portavasos con sensor de proximidad: exclusivo sensor de proximidad que acciona automáticamente el flujo de agua en la escupidera, proporcionando más practicidad, comodidad para el paciente, seguridad y economía de agua",
+        "Temporizador de agua programable con interruptor eléctrico (hasta 60 segundos)",
+        "Terminal aspirador Venturi",
+        "Terminal aspirador de la bomba de vacío"
+      ],
+      "Foco Led": [
+        "Tecnología de iluminación – LED",
+        "Menos consumo energético, consume hasta un 95 % menos de energía eléctrica que los modelos convencionales",
+        "Más durabilidad de la fuente de luz (LED), hasta 50.000 horas.",
+        "Sensor de proximidad",
+        "El reflector se activa mediante el sensor de proximidad situado en la parte inferior del cabezal, evitando el riesgo de contaminación cruzada",
+        "La selección de la intensidad luminosa también se realiza a través del sensor de proximidad",
+        "El reflector tiene un sistema electrónico digital interno, que es fácil y rápido de programar",
+        "Fuente de luz fría",
+        "No genera calor en el campo operatorio",
+        "Fuente de luz rectangular",
+        "Cuando se coloca correctamente para la iluminación de la boca, no genera molestias en la región ocular del paciente",
+        "Aumento del tamaño de la fuente de luz de la cavidad bucal, proporcionando más área de luz en el campo de trabajo",
+        "Diseño totalmente innovador con líneas redondeadas, proporciona un aspecto moderno y armonioso y facilita el manejo",
+        "Es liviano, tiene alta durabilidad y permite una amplia movilidad en diferentes posiciones",
+        "Manijas bilaterales en forma de lazo que permite el aislamiento, evitando el riesgo de contaminación cruzada. Extraíble y esterilizable en autoclave. Permite elegir la posición de acuerdo a la necesidad del profesional",
+        "Protector frontal extraíble, fabricado en material resistente y transparente, protege el sistema óptico contra aerosoles",
+        "Sensor 3 LEDs",
+        "Sistema óptico con 3 LEDs",
+        "Tres intensidades: 10.000, 20.000 y 30.000 LUX"
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+/* Pages */
+
+/* catalog_card  */
+
+.catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+}
+
+.catalog-card {
+  border: 1px solid #333;
+}
