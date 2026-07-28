@@ -1,5 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
+namespace app\Repositories;
+
+use app\Entities\Chair;
+
 interface ChairRepository
 {
   /* @return Chair[]  */

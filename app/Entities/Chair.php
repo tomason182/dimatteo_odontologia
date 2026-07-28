@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace app\Entities;
+
 class Chair
 {
   public function __construct(
@@ -9,7 +13,7 @@ class Chair
     public readonly string $description,
     public readonly string $shortDescription,
     public readonly array $gallery,
-    public readonly string $catalogPdg,
+    public readonly string $catalogPdf,
 
     /** @var array<string, array<string | array> */
     public readonly array $features,
