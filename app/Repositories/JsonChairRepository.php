@@ -5,12 +5,11 @@ declare(strict_types=1);
 namespace app\Repositories;
 
 use app\Entities\Chair;
-use ChairRepository;
 
 class JsonChairRepository implements ChairRepository
 {
   /** @var Chair[] | null */
-  private ?array $chair = null;
+  private ?array $chairs = null;
 
   public function __construct(
     private readonly string $filePath
@@ -23,7 +22,7 @@ class JsonChairRepository implements ChairRepository
   {
     $this->load();
 
-    return $this->chair;
+    return $this->chairs;
   }
 
 
@@ -31,12 +30,13 @@ class JsonChairRepository implements ChairRepository
   {
     $this->load();
 
-    foreach ($this->chair as $chair) {
+    foreach ($this->chairs as $chair) {
       if ($chair->getSlug() === $slug) {
         return $chair;
       }
-      return null;
     }
+
+    return null;
   }
 
   /*
@@ -44,12 +44,19 @@ class JsonChairRepository implements ChairRepository
    */
   public function findByBrand(string $brand): array
   {
-    throw new \Exception('Not implemented');
+    $this->load();
+
+    return array_values(
+      array_filter(
+        $this->chairs,
+        fn(Chair $chair) => $chair->getBrand() === $brand
+      )
+    );
   }
 
   private function load(): void
   {
-    if ($this->chair !== null) {
+    if ($this->chairs !== null) {
       return;
     }
 
@@ -69,10 +76,10 @@ class JsonChairRepository implements ChairRepository
       throw new \RuntimeException("Invalid JSON file");
     }
 
-    $this->chair = [];
+    $this->chairs = [];
 
     foreach ($data as $chairData) {
-      $this->chair[] = $this->mapChair($chairData);
+      $this->chairs[] = $this->mapChair($chairData);
     }
   }
 
@@ -86,7 +93,7 @@ class JsonChairRepository implements ChairRepository
       shortDescription: $chair["shortDescription"],
       gallery: $chair["gallery"],
       catalogPdf: $chair["catalogPdf"],
-      technicalSpeficications: $chair["technicalSpeficications"],
+      technicalSpecifications: $chair["technicalSpecifications"],
       features: $chair["features"]
     );
   }

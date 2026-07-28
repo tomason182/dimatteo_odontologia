@@ -19,7 +19,17 @@ class Chair
     public readonly array $features,
 
     /** @var array<string, string|array> */
-    public readonly array $technicalSpeficications,
+    public readonly array $technicalSpecifications,
 
   ) {}
+
+  public function getSlug(): string
+  {
+    return $this->slug;
+  }
+
+  public function getBrand(): string
+  {
+    return $this->brand;
+  }
 };
