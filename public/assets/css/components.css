@@ -28,8 +28,10 @@
   font-weight: 800;
 }
 
-.header__logo span {
-  color: var(--primary);
+.header__logo img {
+  display: block;
+  height: 60px;
+  width: auto;
 }
 
 .nav_list {
@@ -39,7 +41,7 @@
   gap: 2.2rem;
   margin: 0;
   padding: 0;
-  font-size: .875rem;
+  font-size: .75rem;
 }
 
 .nav_list a {
@@ -51,12 +53,12 @@
 }
 
 .nav_list a.active {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .nav_list a:hover {
 
-  color: var(--primary)
+  color: var(--hover)
 }
 
 .nav_list a::after {
@@ -66,13 +68,36 @@
   bottom: -6px;
   width: 0;
   height: 2px;
-  background: var(--primary);
+  background: var(--secondary);
   transition: .25s;
 
 }
 
 .nav_list a:hover::after {
   width: 100%;
+}
+
+.nav_list li:last-child {
+  border: 1px solid var(--primary-dark);
+  padding: 0.25rem .75rem;
+  border-radius: 16px;
+}
+
+.nav_list li:last-child:hover {
+  background: var(--primary-dark);
+}
+
+
+.nav_list li:last-child a {
+  color: var(--primary-dark)
+}
+
+.nav_list li:last-child a:hover {
+  color: #fff;
+}
+
+.nav_list li:last-child a::after {
+  display: none;
 }
 
 
@@ -136,9 +161,9 @@
 }
 
 .hero_btn {
-  border: 1px solid #333;
+  border: 1px solid var(--secondary);
   padding: 0.75rem 1.5rem;
-  color: #111;
+  color: var(--secondary);
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.7rem;
@@ -298,7 +323,7 @@
 /* Footer */
 .footer {
   margin-top: 6rem;
-  background: #1f2937;
+  background: var(--secondary);
   color: #d1d5db;
   border-top: 4px solid var(--primary)
 }

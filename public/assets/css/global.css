@@ -1,6 +1,7 @@
 :root {
   /* Paleta de colores */
   --primary: #2563eb;
+  --secondary: #1f2937;
   --primary-dark: #1d4ed8;
   --primary-hover: #1d4ed8;
   --text-color: #000000;
@@ -85,7 +86,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 li {
@@ -115,10 +116,9 @@ li {
   align-items: center;
   justify-content: center;
   gap: .5rem;
-  padding: .85rem 1.8rem;
-  border: 2px solid transparent;
+  padding: .65rem 1.2rem;
   border-radius: 12px;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: #fff;
   font-size: .75rem;
   font-weight: 600;
@@ -135,7 +135,6 @@ li {
 }
 
 .btn:hover {
-  background-color: #1d4ed8;
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(37, 99, 235, .28);
   text-decoration: none;

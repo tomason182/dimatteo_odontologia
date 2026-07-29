@@ -3,7 +3,7 @@
   <div class="container header__container">
 
     <div class="header__logo">
-      <p>Di Matteo <span>Odontología</span></p>
+      <a href="/"><img src="/assets/img/hero/rod_odonto.png" /></a>
     </div>
 
     <button class="menu_toggle" aria-label="abrir menu" aria-expanded="false">
@@ -22,6 +22,7 @@
         <li><a href="#">Servicio Técnico</a></li>
         <li><a href="#">Nosotros</a></li>
         <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contactenos</a></li>
       </ul>
 
     </nav>
