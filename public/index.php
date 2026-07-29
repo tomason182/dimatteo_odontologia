@@ -14,9 +14,9 @@ $page = $_GET["page"] ?? "home";
 
 
 $routes = [
-  "home" => "pages/home.php",
-  "modelos" => "pages/modelos.php",
-  "saevo" => "pages/saevo.php",
+  "home" => "../app/Views/pages/home.php",
+  "modelos" => "../app/Controllers/ModelController.php",
+  "saevo" => "../app/Controllers/SaevoController.php",
   "d700" => "pages/d700.php",
   "faq" => "pages/faq.php",
   "services" => "pages/services.php"

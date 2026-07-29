@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Controllers;
 
 use App\Repositories\JsonChairRepository;
@@ -9,6 +8,6 @@ $repository = new JsonChairRepository(
   __DIR__ . "/../../data/chairs.json"
 );
 
-$chairs = $repository->findAll();
+$chairs = $repository->findByBrand("saevo");
 
-require __DIR__ . "/../Views/pages/modelos.php";
+require __DIR__ . "/../Views/pages/saevo.php";

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Repositories;
 
 use App\Entities\Chair;
+use App\Interfaces\ChairRepository;
 
 class JsonChairRepository implements ChairRepository
 {

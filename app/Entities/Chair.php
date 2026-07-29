@@ -32,4 +32,9 @@ class Chair
   {
     return $this->brand;
   }
+
+  public function getName(): string
+  {
+    return $this->name;
+  }
 };

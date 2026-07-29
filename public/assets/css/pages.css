@@ -3,12 +3,15 @@
 /* catalog_card  */
 
 .catalog {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 
 
 }
 
-.catalog-card {
-  border: 1px solid #333;
+.chair-card {
+  border: 1px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem
 }
