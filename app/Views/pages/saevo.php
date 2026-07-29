@@ -7,12 +7,16 @@
   <?php include __DIR__ . "/../header.php"; ?>
 
   <main>
+    <section class="layout-hero">
+      <h1><?= $chairs[0]->getBrand()  ?></h1>
+
+    </section>
     <section class="container catalog">
 
       <?php foreach ($chairs as $chair):  ?>
         <article class="chair-card">
           <div class="chair-image">
-            <img src="/assets/img/brands/saevo.jpeg" />
+            <img src=<?= $chair->getHeroImg(); ?> />
           </div>
           <div class="chair-info">
             <h2><?= htmlspecialchars($chair->getName()) ?></h2>
@@ -26,8 +30,11 @@
               <?php endforeach; ?>
             </ul>
 
-            <a class="btn" href="#">Ver detalles </a>
-            <a class="chat-btn" href="#">Contactar</a>
+            <div class="chair-card__actions">
+
+              <a class="chair-card__btn" href="#">Ver detalles </a>
+              <a class="chair-card__btn chair-card__chat-btn" href="#">Contactar</a>
+            </div>
           </div>
         </article>
 

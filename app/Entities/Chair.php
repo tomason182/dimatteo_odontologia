@@ -50,4 +50,9 @@ class Chair
   {
     return $this->highlights;
   }
+
+  public function getHeroImg(): string
+  {
+    return $this->gallery[0];
+  }
 };

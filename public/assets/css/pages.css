@@ -5,13 +5,31 @@
 .catalog {
   display: flex;
   flex-direction: column;
+}
 
+.layout-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  background: #4CA1AF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.layout-hero h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff
 }
 
 .chair-card {
   border: 1px solid var(--border-color);
   display: grid;
+  gap: 1rem;
   grid-template-columns: 1fr 1fr;
   padding: 1rem
 }
@@ -23,10 +41,59 @@
 }
 
 .chair-info p {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--text-color-light);
 }
 
 .chair-highlights {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.65rem;
+  color: var(--primary)
+}
+
+.chair-highlights li {
+  font-weight: bold;
+  font-size: 0.65rem
+}
+
+.chair-highlights li::before {
+  content: "✓";
+  margin-right: .5rem;
+}
+
+.chair-card__actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.chair-card__btn {
+  font-size: 0.875rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.25rem 1rem;
   font-size: 0.75rem;
+  color: var(--text-color-light)
+}
+
+.chair-card__btn:hover {
+  text-decoration: none;
+  color: #333;
+  border-color: #333;
+}
+
+.chair-card__chat-btn {
+  color: var(--primary);
+  border-color: var(--primary)
+}
+
+.chair-card__chat-btn:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0px 0px 9px 2px rgba(0, 123, 255, 0.5);
+
 }
