@@ -15,6 +15,9 @@ class Chair
     public readonly array $gallery,
     public readonly string $catalogPdf,
 
+    /** @var array<string> */
+    public readonly array $highlights,
+
     /** @var array<string, array<string | array> */
     public readonly array $features,
 
@@ -36,5 +39,15 @@ class Chair
   public function getName(): string
   {
     return $this->name;
+  }
+
+  public function getShortDescription(): string
+  {
+    return $this->shortDescription;
+  }
+
+  public function getHighlights(): array
+  {
+    return $this->highlights;
   }
 };

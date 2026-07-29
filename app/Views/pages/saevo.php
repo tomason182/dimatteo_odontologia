@@ -15,7 +15,19 @@
             <img src="/assets/img/brands/saevo.jpeg" />
           </div>
           <div class="chair-info">
-            <h2><?= $chair->getName() ?></h2>
+            <h2><?= htmlspecialchars($chair->getName()) ?></h2>
+            <p><?= htmlspecialchars($chair->getShortDescription()) ?></p>
+
+            <ul class="chair-highlights">
+
+              <?php foreach ($chair->getHighlights() as $highlight):  ?>
+                <li><?= htmlspecialchars($highlight) ?></li>
+
+              <?php endforeach; ?>
+            </ul>
+
+            <a class="btn" href="#">Ver detalles </a>
+            <a class="chat-btn" href="#">Contactar</a>
           </div>
         </article>
 

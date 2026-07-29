@@ -15,3 +15,18 @@
   grid-template-columns: 1fr 1fr;
   padding: 1rem
 }
+
+.chair-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem
+}
+
+.chair-info p {
+  font-size: 0.875rem;
+  color: var(--text-color-light);
+}
+
+.chair-highlights {
+  font-size: 0.75rem;
+}

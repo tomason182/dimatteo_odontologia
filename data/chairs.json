@@ -4,10 +4,17 @@
     "brand": "saevo",
     "name": "S203",
     "description": "",
-    "shortDescription": "",
+    "shortDescription": "El Saevo S203 es un sillón odontológico diseñado para consultorios que buscan confiabilidad, ergonomía y facilidad de uso en la práctica diaria. Su estructura robusta, el sistema de elevación electromecánico y el reflector LED de bajo consumo ofrecen un entorno de trabajo cómodo tanto para el profesional como para el paciente. Completan el conjunto un módulo dental funcional, unidad de agua de amplia movilidad y un diseño pensado para brindar durabilidad y un mantenimiento sencillo.",
     "heroImage": "",
     "gallery": [],
     "catalogPdf": "",
+    "highlights": [
+      "apoya braso fijo",
+      "base antideslizante",
+      "posiciones de trabajo programables",
+      "Panel PAD - Controles del sillón y reflector",
+      "Sistema FLUSH para desinfección de mangeras."
+    ],
     "technicalSpecifications": {
       "General": [
         {
@@ -238,10 +245,16 @@
     "brand": "saevo",
     "name": "S303",
     "description": "",
-    "shortDescription": "",
+    "shortDescription": "El Saevo S303 combina tecnología, ergonomía y versatilidad para profesionales que buscan un equipamiento más completo. Incorpora un avanzado sistema de control mediante Panel PAD y joystick multifunción, además de un brazo de apoyo abatible que mejora el acceso del paciente y la comodidad durante el tratamiento. Su unidad de agua, reflector LED y componentes de alta calidad convierten al S303 en una solución preparada para acompañar el crecimiento de cualquier consultorio.",
     "heroImage": "",
     "gallery": [],
     "catalogPdf": "",
+    "highlights": [
+      "Base antideslizante",
+      "Brazo de apoyo abatible 90",
+      "Joystick",
+      "Panel PAD"
+    ],
     "technicalSpecifications": {
       "General": [
         {
@@ -497,10 +510,19 @@
     "brand": "saevo",
     "name": "S404",
     "description": "",
-    "shortDescription": "",
+    "shortDescription": "El Saevo S404 está diseñado para consultorios que requieren un mayor nivel de confort, tecnología y eficiencia en la práctica clínica diaria. Su diseño ergonómico, junto con un sistema de comandos intuitivo y componentes de alto rendimiento, permite optimizar el flujo de trabajo y brindar una experiencia más cómoda tanto para el profesional como para el paciente. La calidad de sus materiales, la amplia movilidad de sus módulos y la confiabilidad característica de Saevo lo convierten en una excelente opción para quienes buscan un equipamiento moderno, duradero y preparado para un uso intensivo.",
     "heroImage": "",
     "gallery": [],
     "catalogPdf": "",
+    "highlights": [
+      "Base antideslizante",
+      "Brazo de apoyo abatible 90",
+      "Ambidiestro",
+      "Joystick y pedal de control",
+      "2 bandejas con amplia area",
+      "Sistema FLUS",
+      "Panel PAD"
+    ],
     "technicalSpecifications": {
       "General": [
         {
@@ -753,10 +775,17 @@
     "brand": "saevo",
     "name": "S502",
     "description": "",
-    "shortDescription": "",
+    "shortDescription": "El Saevo S502 representa una solución de alta gama para clínicas y profesionales que buscan el máximo nivel de tecnología, ergonomía y prestaciones. Cada uno de sus componentes ha sido desarrollado para ofrecer precisión, comodidad y eficiencia durante procedimientos de distinta complejidad, favoreciendo una postura de trabajo más confortable y una mejor experiencia para el paciente. Su diseño contemporáneo, combinado con sistemas de control avanzados y la reconocida calidad de fabricación de Saevo, hacen del S502 una inversión pensada para consultorios que priorizan rendimiento, confiabilidad y una imagen profesional.",
     "heroImage": "",
     "gallery": [],
     "catalogPdf": "",
+    "highlights": [
+      "Doble sistema antiaplastamineto",
+      "Apoyabraso plegable por bloqueo neumático",
+      "Diestro",
+      "Joystick",
+      "Posiciones de trabajo programables"
+    ],
     "technicalSpecifications": {
       "General": [
         {

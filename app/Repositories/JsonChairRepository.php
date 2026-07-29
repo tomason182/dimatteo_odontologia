@@ -94,6 +94,7 @@ class JsonChairRepository implements ChairRepository
       shortDescription: $chair["shortDescription"],
       gallery: $chair["gallery"],
       catalogPdf: $chair["catalogPdf"],
+      highlights: $chair["highlights"],
       technicalSpecifications: $chair["technicalSpecifications"],
       features: $chair["features"]
     );
