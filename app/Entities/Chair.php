@@ -58,6 +58,6 @@ class Chair
 
   public function getFeatures(): array
   {
-    return this->features;
+    return $this->features;
   }
 };

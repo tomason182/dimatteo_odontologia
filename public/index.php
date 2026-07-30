@@ -17,11 +17,14 @@ switch ($page) {
   case "home":
     require "../app/Views/pages/home.php";
     break;
-  case "modelos":
+  case "saevo":
     require "../app/Controllers/SaevoController.php";
     break;
   case "model":
     require "../app/Controllers/ModelController.php";
+    break;
+  default:
+    require "../app/Views/pages/404.php";
 }
 
 
@@ -33,11 +36,3 @@ $routes = [
   "faq" => "pages/faq.php",
   "services" => "pages/services.php"
 ];
-
-if (!isset($routes[$page])) {
-  http_response_code(404);
-  require "pages/404.php";
-  exit;
-}
-
-require $routes[$page];

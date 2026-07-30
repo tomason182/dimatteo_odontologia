@@ -18,22 +18,24 @@
       <div class="">
         <img src="<?= $chair->getHeroImg(); ?>" />
       </div>
-      <div class="">
-        <h2><?= "Modelo" . $chair->getSlug(); ?></h2>
+      <div class="chair-info">
+        <h2><?= "Modelo " . $chair->getSlug(); ?></h2>
 
-        <p><?= $chair->getDescription(); ?></p>
+        <p><?= $chair->getShortDescription(); ?></p>
 
-        <a class="btn_presupuesto">Solicitar presupuesto</a>
+        <a class="btn btn__presupuesto">Solicitar presupuesto</a>
       </div>
     </div>
     <div class="mode__specifications">
       <nav class="tabs">
         <ul class="tabs__list">
 
-          <?php foreach ($chair->getFeatures() as $key => $features): ?>
-            <li class="tab active" data-tab="<?= $key ?>">
-              <?= $key; ?>
+          <?php foreach ($chair->getFeatures() as $key => $feature): ?>
+
+            <li class="tab <?= $key === array_key_first($chair->getFeatures()) ? "active" : "" ?>" data-tab="<?= $key ?>">
+              <?= $feature["title"]; ?>
             </li>
+
           <?php endforeach; ?>
 
           <li class="tab" data-tab="technical">Especificaciones técnicas</li>
@@ -42,12 +44,16 @@
 
       <div class="tabs-content">
 
-        <?php foreach ($chair->getFeatures() as $key => $features): ?>
+        <?php foreach ($chair->getFeatures() as $key => $feature): ?>
 
-          <div class="tab-content" data-tab="<?= $key; ?>">
+          <div class="tab-content <?= $key === array_key_first($chair->getFeatures()) ? "active" : "" ?>" data-tab="<?= $key; ?>">
+
             <ul>
-              <?php foreach ($features as $feature): ?>
-                <li><?= $feature["description"]; ?></li>
+
+              <?php foreach ($feature["items"] as $items): ?>
+
+                <li><?= $items["description"]; ?></li>
+
               <?php endforeach; ?>
             </ul>
           </div>
