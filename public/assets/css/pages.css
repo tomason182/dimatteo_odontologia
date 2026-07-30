@@ -116,6 +116,17 @@
   gap: .25rem;
 }
 
+.tabs__list li.active {
+  border-bottom: 2px solid var(--primary);
+}
+
+.model__specifications {
+  width: 100%;
+  height: 450px;
+  overflow-y: auto;
+
+}
+
 .tabs__list li {
   border: 1px solid #ccc;
   padding: 0.33rem 1rem;
@@ -138,4 +149,16 @@
 
 .tab-content.active {
   display: block;
+}
+
+.tab-content ul {
+  font-size: .875rem;
+  color: #333;
+  list-style-type: disc;
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+
+.tab-content ul>li>ul {
+  margin-top: 0
 }

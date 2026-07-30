@@ -20,7 +20,7 @@ switch ($slug) {
     break;
 
   case "s404":
-    $chairs = $repository->findBySlug("s404");
+    $chair = $repository->findBySlug("s404");
     break;
 
   case "s502":

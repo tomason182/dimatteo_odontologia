@@ -10,7 +10,7 @@
 
 <main>
   <section class="layout-hero">
-    <h1><?= $chair->getBrand() . $chair->getSlug(); ?></h1>
+    <h1><?= $chair->getBrand() . " " . $chair->getSlug(); ?></h1>
   </section>
 
   <section class="model__container container">
@@ -26,13 +26,18 @@
         <a class="btn btn__presupuesto">Solicitar presupuesto</a>
       </div>
     </div>
-    <div class="mode__specifications">
+    <div class="model__specifications">
+      <?php
+      $features = $chair->getFeatures();
+      $first_key = array_key_first($features);
+      $technicals = $chair->getTechnicalSpecifications();
+      ?>
       <nav class="tabs">
         <ul class="tabs__list">
 
-          <?php foreach ($chair->getFeatures() as $key => $feature): ?>
+          <?php foreach ($features as $key => $feature): ?>
 
-            <li class="tab <?= $key === array_key_first($chair->getFeatures()) ? "active" : "" ?>" data-tab="<?= $key ?>">
+            <li class="tab <?= $key === $first_key ? "active" : "" ?>" data-tab="<?= $key ?>">
               <?= $feature["title"]; ?>
             </li>
 
@@ -44,9 +49,9 @@
 
       <div class="tabs-content">
 
-        <?php foreach ($chair->getFeatures() as $key => $feature): ?>
+        <?php foreach ($features as $key => $feature): ?>
 
-          <div class="tab-content <?= $key === array_key_first($chair->getFeatures()) ? "active" : "" ?>" data-tab="<?= $key; ?>">
+          <div class="tab-content <?= $key === $first_key ? "active" : "" ?>" data-tab="<?= $key; ?>">
 
             <ul>
 
@@ -60,12 +65,43 @@
 
         <?php endforeach; ?>
 
-      </div>
+        <div class="tab-content" data-tab="technical">
+          <?php foreach ($technicals as $category => $especifications): ?>
 
+            <ul>
+              <?php foreach ($especifications as $spec): ?>
+
+                <li>
+                  <strong><?= $spec["name"] ?></strong>
+
+                  <?php if (is_array($spec["value"])):; ?>
+                    <ul>
+                      <?php foreach ($spec["value"] as $subitem) : ?>
+                        <li><?= $subitem; ?></li>
+                      <?php endforeach; ?>
+                    </ul>
+                  <?php else: ?>
+
+                    <span><?= $spec["value"] ?></span>
+                  <?php endif; ?>
+                </li>
+
+              <?php endforeach; ?>
+            </ul>
+
+          <?php endforeach; ?>
+
+        </div>
+
+      </div>
     </div>
 
   </section>
 
 </main>
+
+<?php include __DIR__ . "/../footer.php" ?>
+
+<script src="/assets/js/main.js"></script>
 
 </html>

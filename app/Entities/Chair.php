@@ -60,4 +60,9 @@ class Chair
   {
     return $this->features;
   }
+
+  public function getTechnicalSpecifications(): array
+  {
+    return $this->technicalSpecifications;
+  }
 };
