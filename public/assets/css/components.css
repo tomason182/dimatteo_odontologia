@@ -247,6 +247,11 @@
   margin-bottom: 1.5rem;
 }
 
+.brand-card__content {
+  display: flex;
+  flex-direction: column;
+}
+
 .brand-card__content p {
   color: var(--text-color-light);
   line-height: 1.8;
@@ -273,6 +278,9 @@
 
 .brand-card .btn {
   margin-top: .5rem;
+
+  max-width: 200px;
+  align-self: flex-end;
 }
 
 /* ABOUT US */

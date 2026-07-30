@@ -23,7 +23,7 @@
           <a href="<?= router("brand", ["slug" => "d700"]) ?>" class="<?= $page === "d700" ? "active" : "" ?>"> D700 </a>
         </li>
         <li>
-          <a href="<?= route("suntem") ?>" class="<?= $page === "suntem" ?: "" ?>"> Suntem </a>
+          <a href="<?= router("brand", ["slug" => "suntem"]) ?>" class="<?= $page === "suntem" ?: "" ?>"> Suntem </a>
         </li>
         <li>
           <a href="#">Servicio Técnico</a>

@@ -49,7 +49,7 @@
 
         </div>
 
-        <a href="#models" class="btn">
+        <a href="<?= router("brand", ["slug" => "saevo"]); ?>" class=" btn">
           Ver productos Saevo
         </a>
 
@@ -98,7 +98,7 @@
 
         </div>
 
-        <a href="#models" class="btn">
+        <a href="<?= router("brand", ["slug" => "d700"]); ?>" class="btn">
           Ver productos D700
         </a>
 
