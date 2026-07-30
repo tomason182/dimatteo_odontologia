@@ -17,8 +17,8 @@ switch ($page) {
   case "home":
     require "../app/Views/pages/home.php";
     break;
-  case "saevo":
-    require "../app/Controllers/SaevoController.php";
+  case "brand":
+    require "../app/Controllers/BrandController.php";
     break;
   case "model":
     require "../app/Controllers/ModelController.php";

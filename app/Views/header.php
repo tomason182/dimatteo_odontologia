@@ -17,10 +17,10 @@
     <nav class="nav">
       <ul class="nav_list">
         <li>
-          <a href="<?= route("saevo"); ?>" class="<?= $page === "saevo" ? "active" : ""; ?>">Saevo</a>
+          <a href="<?= router("brand", ["slug" => "saevo"]); ?>" class="<?= $page === "saevo" ? "active" : ""; ?>">Saevo</a>
         </li>
         <li>
-          <a href="<?= route("d700") ?>" class="<?= $page === "d700" ? "active" : "" ?>"> D700 </a>
+          <a href="<?= router("brand", ["slug" => "d700"]) ?>" class="<?= $page === "d700" ? "active" : "" ?>"> D700 </a>
         </li>
         <li>
           <a href="<?= route("suntem") ?>" class="<?= $page === "suntem" ?: "" ?>"> Suntem </a>
