@@ -55,4 +55,9 @@ class Chair
   {
     return $this->gallery[0];
   }
+
+  public function getFeatures(): array
+  {
+    return this->features;
+  }
 };

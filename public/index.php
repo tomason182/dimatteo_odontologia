@@ -13,6 +13,18 @@ require_once __DIR__ . "/../app/helpers.php";
 $page = $_GET["page"] ?? "home";
 
 
+switch ($page) {
+  case "home":
+    require "../app/Views/pages/home.php";
+    break;
+  case "modelos":
+    require "../app/Controllers/SaevoController.php";
+    break;
+  case "model":
+    require "../app/Controllers/ModelController.php";
+}
+
+
 $routes = [
   "home" => "../app/Views/pages/home.php",
   "modelos" => "../app/Controllers/ModelController.php",
