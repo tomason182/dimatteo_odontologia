@@ -1,5 +1,444 @@
 [
   {
+    "slug": "d703",
+    "brand": "D700",
+    "name": "D703",
+    "description": "",
+    "shortDescription": "",
+    "gallery": "/assets/img/brands/d703.png",
+    "catalogPdf": "",
+    "highlights": [],
+    "technicalSpecifications": {},
+    "features": {
+      "sillon_dental": {
+        "title": "Sillón dental",
+        "items": [
+          {
+            "description": "Base con borde antideslizante; no es necesario fijarla al suelo"
+          },
+          {
+            "description": "Estructura construida en acero macizo, con tratamiento antioxidante y pintado en pintura epoxi, proporcionando más resistencia y durabilidad al conjunto"
+          },
+          {
+            "description": "Sistema de elevación pantográfica en chapa de acero, ofrece más resistencia, y capacidad de elevación de hasta 200 kg"
+          },
+          {
+            "description": "Caja de conexiones integrada, optimizando el espacio dentro del consultorio"
+          },
+          {
+            "description": "Cuenta con el botón ON/OFF ubicado en el lateral de la base del sillón, facilitando el acceso del profesional"
+          },
+          {
+            "description": "Tapecería disponible en 10 opciones de color"
+          },
+          {
+            "description": "Brazo de apoyo al paciente fijo"
+          },
+          {
+            "description": "Sistema de elevación electromecánico accionado por un motorreductor de baja tensión de 24 voltios"
+          },
+          {
+            "description": "Tensión de alimentación 127 o 220V ~ 50/60Hz"
+          },
+          {
+            "description": "Respaldo de cabeza anatómico y extraíble"
+          },
+          {
+            "description": "Ambidiestro"
+          }
+        ]
+      },
+      "pedal": {
+        "title": "Pedal",
+        "items": [
+          {
+            "description": "Joystick"
+          },
+          {
+            "description": "Pedal de control multifuncional para accionar el sillón, piezas de mano y reflector"
+          },
+          {
+            "description": "Movimientos de elevación e inclinação automáticos y sincronizados"
+          },
+          {
+            "description": "Posiciones de trabajo programables"
+          },
+          {
+            "description": "Opción retorno a cero para volver directamente a la posición inicial"
+          },
+          {
+            "description": "El reflector se apaga automáticamente al presionar «retorno a cero»"
+          },
+          {
+            "description": "Protección del sistema eléctrico contra fluctuaciones de voltaje y corriente"
+          }
+        ]
+      },
+      "modulo_dental": {
+        "title": "Módulo dental",
+        "items": [
+          {
+            "description": "Fabricado en ABS inyectado: proporciona más durabilidad/resistencia a la corrosión y estabilidad de color"
+          },
+          {
+            "description": "Pedal progresivo para la activación de las piezas de mano en los terminales, que permite el control de la velocidad y la activación en cualquier punto"
+          },
+          {
+            "description": "Jeringa triple: Boquilla giratoria, extraíble y autoclavable"
+          },
+          {
+            "description": "Mangueras: redondeadas, ligeras y flexibles"
+          },
+          {
+            "description": "Soporte de puntas: con accionamiento neumático individual"
+          },
+          {
+            "description": "Tapa de acero inoxidable extraíble: fácil de limpiar. Garantiza más practicidad y resistencia a la corrosión"
+          },
+          {
+            "description": "Asas bilaterales con accionamiento neumático"
+          },
+          {
+            "description": "Negatoscopio"
+          },
+          {
+            "description": "Panel PAD que activa todos los controles del sillón y reflector:",
+            "sub_items": [
+              "Movimientos del asiento",
+              "Movimientos del respaldo",
+              "Posición de retorno a cero",
+              "Posiciones de trabajo",
+              "Reflector",
+              "Jeringa Triple",
+              "Terminal sin spray para baja rotación",
+              "Terminal para alta rotación"
+            ]
+          }
+        ]
+      },
+      "unidad_de_agua": {
+        "title": "Unidad de agua",
+        "items": [
+          {
+            "description": "Fabricado en ABS inyectado: proporciona más durabilidad/resistencia a la corrosión y estabilidad de color"
+          },
+          {
+            "description": "Escupidera: extraíble, con filtro para retención de sólidos"
+          },
+          {
+            "description": "Filtro de residuos ubicado en la base del sillón"
+          },
+          {
+            "description": "Sistema de regulación del caudal de agua"
+          },
+          {
+            "description": "Botellas translúcidas de 1000 ml para agua de las piezas de mano y jeringa triple"
+          },
+          {
+            "description": "La unidad de agua puede girar 90º, permitiendo una amplia movilidad para el dentista acercarse al campo operatorio"
+          },
+          {
+            "description": "Portavasos con temporizador de agua programable con interruptor eléctrico (hasta 60 segundos)"
+          },
+          {
+            "description": "Sensor de proximidad: exclusivo sensor de proximidad que acciona automáticamente el flujo de agua en la escupidera, proporcionando más practicidad, comodidad para el paciente, seguridad y economía de agua"
+          },
+          {
+            "description": "Terminal Aspirador Venturi"
+          },
+          {
+            "description": "Terminal aspirador de la bomba de vacío"
+          }
+        ]
+      },
+      "foco_led": {
+        "title": "Reflector Sirius",
+        "items": [
+          {
+            "description": "Tecnología de iluminación – LED"
+          },
+          {
+            "description": "Menos consumo energético, consume hasta un 95 % menos de energía eléctrica que los modelos convencionales"
+          },
+          {
+            "description": "Más durabilidad de la fuente de luz (LED), hasta 50.000 horas."
+          },
+          {
+            "description": "Sensor de proximidad"
+          },
+          {
+            "description": "El reflector se activa mediante el sensor de proximidad situado en la parte inferior del cabezal, evitando el riesgo de contaminación cruzada"
+          },
+          {
+            "description": "La selección de la intensidad luminosa también se realiza a través del sensor de proximidad"
+          },
+          {
+            "description": "El reflector tiene un sistema electrónico digital interno, que es fácil y rápido de programar"
+          },
+          {
+            "description": "Fuente de luz fría"
+          },
+          {
+            "description": "No genera calor en el campo operatorio"
+          },
+          {
+            "description": "Cuando se coloca correctamente para la iluminación de la boca, no genera molestias en la región ocular del paciente"
+          },
+          {
+            "description": "Aumento del tamaño de la fuente de luz de la cavidad bucal, proporcionando más área de luz en el campo de trabajo"
+          },
+          {
+            "description": "Diseño totalmente innovador con líneas redondeadas, proporciona un aspecto moderno y armonioso y facilita el manejo"
+          },
+          {
+            "description": "Es liviano, tiene alta durabilidad y permite una amplia movilidad en diferentes posiciones"
+          },
+          {
+            "description": "Manijas bilaterales en forma de lazo que permite el aislamiento, evitando el riesgo de contaminación cruzada. Extraíble y esterilizable en autoclave. Permite elegir la posición de acuerdo a la necesidad del profesional"
+          },
+          {
+            "description": "Protector frontal extraíble, fabricado en material resistente y transparente, protege el sistema óptico contra aerosoles"
+          },
+          {
+            "description": "Sensor 3 LEDs"
+          },
+          {
+            "description": "Sistema óptico con 3 LEDs"
+          },
+          {
+            "description": "Tres intensidades: 10.000, 20.000 y 30.000 LUX"
+          }
+        ]
+      },
+      "certificaciones": {
+        "title": "Certificaciones",
+        "items": [
+          {
+            "description": "Sillón: D1 – Anvisa: 10069210062"
+          },
+          {
+            "description": "Unidad Dental: Syncrus G2 – Anvisa: 10069210075"
+          },
+          {
+            "description": "Unidad de agua: Syncrus G2 – Anvisa: 10069210063"
+          },
+          {
+            "description": "Reflectores: Sirius G8 Sensor 3 Leds – Anvisa: 10069210069"
+          },
+          {
+            "description": "El montaje del equipo debe ser pagado por el comprador (cliente) y realizado por un técnico acreditado. El embalaje debe permanecer sin abrir hasta la llegada del técnico, si es violado se producirá la cancelación de la garantía del producto."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "d702",
+    "brand": "D700",
+    "name": "D702",
+    "description": "",
+    "shortDescription": "",
+    "gallery": "/assets/img/brands/d703.png",
+    "catalogPdf": "",
+    "highlights": [],
+    "technicalSpecifications": {},
+    "features": {
+      "sillon_dental": {
+        "title": "Sillón dental",
+        "items": [
+          {
+            "description": "Base con borde antideslizante; no es necesario fijarla al suelo"
+          },
+          {
+            "description": "Estructura construida en acero macizo, con tratamiento antioxidante y pintada con pintura epóxica, proporcionando mayor resistencia y durabilidad al conjunto",
+          },
+          {
+            "description": "Sistema tipo pantográfico de elevación fabricado en chapa de acero, ofrece mayor resistencia y capacidad de elevación de hasta 200 kg"
+          },
+          {
+            "description": "Caja de conexión integrada, optimizando el espacio dentro del consultorio"
+          },
+          {
+            "description": "Cuenta con el botón ON/OFF ubicado en el lateral de la base de la silla, facilitando el acceso del profesional"
+          },
+          {
+            "description": "Amplio tapizado disponible en 10 opciones de colores"
+          },
+          {
+            "description": "Brazo de apoyo fijo para el paciente"
+          },
+          {
+            "description": "Sistema de elevación electromecánico accionado por motoreductor de baja tensión con 24 voltios"
+          },
+          {
+            "description": "Tensión de alimentación 127 o 220V ~ 50/60Hz"
+          },
+          {
+            "description": "Respaldo de cabeza anatómico y removible"
+          },
+          {
+            "description": "Ambidiestro"
+          }
+        ]
+      },
+      "pedal": {
+        "title": "Sillón dental",
+        "items": [
+          {
+            "description": "Joystick"
+          },
+          {
+            "description": "Pedal de comando multifuncional que acciona la silla, piezas de mano y reflector"
+          },
+          {
+            "description": "Movimientos de elevación e inclinación automáticos y sincronizados"
+          },
+          {
+            "description": "Posiciones de trabajo que se pueden personalizar"
+          },
+          {
+            "description": "Opción vuelta a cero para regresar directamente a la posición inicial"
+          },
+          {
+            "description": "Apagado automático del reflector al presionar la tecla volver a cero"
+          },
+          {
+            "description": "Protección del sistema eléctrico contra oscilaciones de tensión y corriente"
+          }
+        ]
+      },
+      "modulo_dental": {
+        "title": "Módulo dental",
+        "items": [
+          {
+            "description": "Producido en ABS inyectado: otorga mayor durabilidad, resistencia a la corrosión y estabilidad de color al conjunto"
+          },
+          {
+            "description": "Brazos articulables con bloqueo neumático, accionados por un botón ubicado debajo del cuerpo del equipo en la parte lateral, proporcionando libertad de movimiento"
+          },
+          {
+            "description": "Pedal progresivo para el accionamiento de las piezas de mano en los terminales del equipo, lo que permite el control de la velocidad y el accionamiento en cualquier punto del pedal"
+          },
+          {
+            "description": "Jeringa tríplice: pico giratorio, removible y autoclavable"
+          },
+          {
+            "description": "Mangueras: redondeadas, ligeras y flexibles"
+          },
+          {
+            "description": "Soporte de las puntas: con accionamiento neumático individual"
+          },
+          {
+            "description": "Tampo de acero inoxidable removible: fácil de limpiar, garantiza más practicidad y resistencia a la corrosión"
+          },
+          {
+            "description": "Asa bilateral"
+          },
+          {
+            "description": "De serie",
+            "sub_items": [
+              "Jeringa Triple",
+              "Terminal sin spray para baja rotación",
+              "terminal para alta rotación"
+            ]
+          }
+        ]
+      },
+      "unidad_de_agua": {
+        "title": "Unidad de agua",
+        "items": [
+          {
+            "description": "Producido en ABS inyectado: otorga mayor durabilidad, resistencia a la corrosión y estabilidad de color al conjunto"
+          },
+          {
+            "description": "Cuba de cerámica: profunda, removible y con drenaje y filtro para retención de sólidos, además de cobertura para evitar salpicaduras"
+          },
+          {
+            "description": "Filtro de detritos ubicado en la base del aspirador"
+          },
+          {
+            "description": "Sistema de regulación del caudal de agua: permite el ajuste fino del flujo de agua"
+          },
+          {
+            "description": "Reservorios translúcidos de 1000 ml para: agua de las piezas de mano y jeringa tríplice"
+          },
+          {
+            "description": "Unidad de agua y cuba plegable a 90º, lo que permite una amplia movilidad y facilita la aproximación del auxiliar al campo operatorio"
+          },
+          {
+            "description": "Portavasos con sensor de proximidad: cuenta con un exclusivo sensor de aproximación que acciona automáticamente el flujo de agua en la escupidera, proporcionando mayor practicidad, confort para el paciente, seguridad y ahorro de agua"
+          },
+          {
+            "description": "Temporizador programable de agua con interruptor de accionamiento eléctrico (hasta 60 segundos)"
+          },
+          {
+            "description": "Terminal Aspirador Venturi"
+          },
+          {
+            "description": "Terminal Aspirador Bomba de Vacío"
+          }
+        ]
+      },
+      "foco_led": {
+        "title": "Reflector Persus LED",
+        "items": [
+          {
+            "description": "Monofocal para uso odontológico con sistema óptico con 1 LED"
+          },
+          {
+            "description": "Espejo multifacético con tratamiento multicoating"
+          },
+          {
+            "description": "Doble protección del espejo, en material resistente y transparente"
+          },
+          {
+            "description": "Asas bilaterales en forma de manija que permiten el aislamiento, evitando el riesgo de contaminación cruzada"
+          },
+          {
+            "description": "Cabezal fabricado en material resistente, con giro de 620º"
+          },
+          {
+            "description": "Intensidad: 8.000 a 35.000 LUX (selección de intensidad mediante el pedal)"
+          }
+        ]
+      },
+      "dimensiones": {
+        "title": "Dimensiones",
+        "items": [
+          {
+            "description": "Longitud: 1,54m"
+          },
+          {
+            "description": "Ancho: 0.78m"
+          },
+          {
+            "description": "Altura: 1.31m"
+          }
+        ]
+      },
+      "anvisa": {
+        "title": "Anvisa",
+        "items": [
+          {
+            "description": "Silla: D1 – Anvisa: 10069210062"
+          },
+          {
+            "description": "Equipo: Syncrus G2 – Anvisa: 10069210075"
+          },
+          {
+            "description": "Unidad de agua: Syncrus G2 – Anvisa: 10069210063"
+          },
+          {
+            "description": "Reflector: Persus Led – Anvisa: 10069210069"
+          },
+          {
+            "description": "El montaje del equipo deberá ser pagado por el comprador (cliente) y realizado por un técnico acreditado. El embalaje deberá permanecer cerrado hasta la llegada del técnico; si es violado, se cancelará la garantía del producto."
+          }
+        ]
+      }
+    }
+  },
+  {
     "slug": "s203",
     "brand": "saevo",
     "name": "S203",
