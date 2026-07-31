@@ -9,7 +9,7 @@
       <div class="brand-card__image">
 
         <img
-          src="/assets/img/hero/sillon_gpt.png"
+          src="/assets/img/brands/s502.webp"
           alt="Saevo by Gnatus">
 
       </div>
@@ -61,7 +61,7 @@
       <div class="brand-card__image">
 
         <img
-          src="/assets/img/hero/sillon_gpt.png"
+          src="/assets/img/brands/d703.png"
           alt="D700 Solução Inteligente">
 
       </div>
@@ -111,7 +111,7 @@
       <div class="brand-card__image">
 
         <img
-          src="/assets/img/hero/sillon_gpt.png"
+          src="/assets/img/brands/suntem_307.png"
           alt="Sillones Suntem">
 
       </div>
