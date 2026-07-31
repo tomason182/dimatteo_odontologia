@@ -1,11 +1,323 @@
 [
   {
+    "slug": "307",
+    "brand": "suntem",
+    "name": "307",
+    "description": "",
+    "shortDescription": "",
+    "gallery": [
+      "/assets/img/brands/suntem_307.png"
+    ],
+    "catalogPdf": "",
+    "highlights": [],
+    "technicalSpecifications": {},
+    "features": {
+      "unidad_de_agua": {
+        "title": "Unidad de agua",
+        "items": [
+          {
+            "description": "Salivadera con giro 180."
+          },
+          {
+            "description": "Llena vaso eléctrico con regulador de caudal y temperatura."
+          },
+          {
+            "description": "Barrido de bacha temporizado eléctrico."
+          },
+          {
+            "description": "Bacha de vidrio de 12mm."
+          }
+        ]
+      },
+      "foco_led": {
+        "title": "Foco led",
+        "items": [
+          {
+            "description": "7 temperaturas de color a elegir y alta iluminación hasta 60.000 lux."
+          },
+          {
+            "description": "Tipo Cialítico."
+          }
+        ]
+      },
+      "modulo_dental": {
+        "title": "Módulo dental",
+        "items": [
+          {
+            "description": "3 salidas neumáticas más jeringa triple con regulación de agua y aire."
+          },
+          {
+            "description": "Llena vaso con regulación de temperatura y brarrido de bacha con habilitación digital."
+          },
+          {
+            "description": "Manómetro de presión."
+          },
+          {
+            "description": "Negatoscopio led amplio (Solo version Colgante)."
+          },
+          {
+            "description": "Platina regulable en altura con freno neumático."
+          },
+          {
+            "description": "Lámpara de fotocurado led."
+          }
+        ]
+      },
+      "pedal": {
+        "title": "Pedal",
+        "items": [
+          {
+            "description": "Permite controlar tanto las piezas de mano como los movimientos del equipo."
+          }
+        ]
+      },
+      "banqueta": {
+        "title": "Banqueta",
+        "items": [
+          {
+            "description": "Banqueta incluida."
+          },
+          {
+            "description": "Pistón neumatico para subir y bajar asiento."
+          },
+          {
+            "description": "Respaldo sincronizado."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "303-pro",
+    "brand": "suntem",
+    "name": "303 PRO",
+    "description": "",
+    "shortDescription": "",
+    "gallery": [
+      "/assets/img/brands/suntem_303_pro_colgante.png"
+    ],
+    "catalogPdf": "",
+    "highlights": [],
+    "technicalSpecifications": {},
+    "features": {
+      "platina_principal": {
+        "title": "Platina principal",
+        "items": [
+          {
+            "description": "3 salidas neumáticas más jeringa triple con regulación de agua y aire independiente."
+          },
+          {
+            "description": "Panel digital para controlar los movimientos del sillón, llana vaso y barrido de bacha."
+          },
+          {
+            "description": "3 memorias y vuelta a cero."
+          },
+          {
+            "description": "Manómetro de presión"
+          },
+          {
+            "description": "Negatoscopio led amplio (Solo version Colgante)"
+          },
+          {
+            "description": "Platina regulable en altura con freno neumático"
+          }
+        ]
+      },
+      "unidad_de_agua": {
+        "title": "Unidad de agua",
+        "items": [
+          {
+            "description": "Salivadera con giro 180."
+          },
+          {
+            "description": "Llena vaso eléctrico con regulador de caudal."
+          },
+          {
+            "description": "Barrido de bacha temporizado eléctrico."
+          },
+          {
+            "description": "Bacha de vidrio de 12mm."
+          },
+          {
+            "description": "Calentador de agua."
+          }
+        ]
+      },
+      "foco_led": {
+        "title": "Foco led",
+        "items": [
+          {
+            "description": "6 leds."
+          },
+          {
+            "description": "Control de temperatura para obtener una luz mas parecida a la natural."
+          },
+          {
+            "description": "Hasta 45.000 lux."
+          }
+        ]
+      },
+      "panel_asistente": {
+        "title": "Panel para asistente",
+        "items": [
+          {
+            "description": "Eyector de baja succión."
+          },
+          {
+            "description": "Eyector de alta succión."
+          },
+          {
+            "description": "Jeringa triple."
+          },
+          {
+            "description": "Panel digital multifunción."
+          }
+        ]
+      },
+      "pedal": {
+        "title": "Pedal",
+        "items": [
+          {
+            "description": "Permite controlar tanto las piezas de mano como los movimientos del equipo."
+          },
+          {
+            "description": "Comando de llena vaso y barrido de bacha."
+          }
+        ]
+      },
+      "banqueta": {
+        "title": "Banqueta",
+        "items": [
+          {
+            "description": "Banqueta incluida."
+          },
+          {
+            "description": "Pistón neumatico para subir y bajar asiento."
+          },
+          {
+            "description": "Respaldo tipo codera."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "302-pro",
+    "brand": "suntem",
+    "name": "302 PRO",
+    "description": "",
+    "shortDescription": "",
+    "gallery": [
+      "/assets/img/brands/suntem_302_pro_colgante_zurdos.png"
+    ],
+    "catalogPdf": "",
+    "highlights": [],
+    "technicalSpecifications": {},
+    "features": {
+      "platina_principal": {
+        "title": "Platina principal",
+        "items": [
+          {
+            "description": "3 salidas neumáticas más jeringa triple con regulación de agua y aire independiente."
+          },
+          {
+            "description": "Vuelta a cero con una memoria preestablecida."
+          },
+          {
+            "description": "Panel digital para controlar los movimientos del sillón, llana vaso y barrido de bacha."
+          },
+          {
+            "description": "Manómetro de presión"
+          },
+          {
+            "description": "Negatoscopio led amplio (Solo version Colgante)"
+          },
+          {
+            "description": "Platina regulable en altura con freno neumático"
+          }
+        ]
+      },
+      "unidad_de_agua": {
+        "title": "Unidad de agua",
+        "items": [
+          {
+            "description": "Salivadera con giro 180"
+          },
+          {
+            "description": "Llena vaso eléctrico con regulador de caudal"
+          },
+          {
+            "description": "Barrido de bacha temporizado eléctrico"
+          },
+          {
+            "description": "Bacha de ceramica"
+          }
+        ]
+      },
+      "foco_led": {
+        "title": "Foco led",
+        "items": [
+          {
+            "description": "6 leds"
+          },
+          {
+            "description": "Control de temperatura"
+          },
+          {
+            "description": "Hasta 40000 lux"
+          }
+        ]
+      },
+      "panel_asistente": {
+        "title": "Panel para asistente",
+        "items": [
+          {
+            "description": "Eyector de baja succión"
+          },
+          {
+            "description": "Eyector de alta succión"
+          },
+          {
+            "description": "Jeringa triple"
+          },
+          {
+            "description": "Panel digital multifunción"
+          }
+        ]
+      },
+      "pedal": {
+        "title": "Pedal Multifunción",
+        "items": [
+          {
+            "description": "Permite controlar tanto las piezas de mano como los movimientos del equipo"
+          }
+        ]
+      },
+      "banqueta": {
+        "title": "Banqueta",
+        "items": [
+          {
+            "description": "Banqueta incluida."
+          },
+          {
+            "description": "Pistón neumatico para subir y bajar asiento."
+          },
+          {
+            "description": "Respaldo tipo codera."
+          }
+        ]
+      }
+    }
+  },
+  {
     "slug": "d703",
-    "brand": "D700",
+    "brand": "d700",
     "name": "D703",
     "description": "",
     "shortDescription": "",
-    "gallery": "/assets/img/brands/d703.png",
+    "gallery": [
+      "/assets/img/brands/d703.png"
+    ],
     "catalogPdf": "",
     "highlights": [],
     "technicalSpecifications": {},
@@ -234,11 +546,13 @@
   },
   {
     "slug": "d702",
-    "brand": "D700",
+    "brand": "d700",
     "name": "D702",
     "description": "",
     "shortDescription": "",
-    "gallery": "/assets/img/brands/d703.png",
+    "gallery": [
+      "/assets/img/brands/d703.png"
+    ],
     "catalogPdf": "",
     "highlights": [],
     "technicalSpecifications": {},
@@ -250,7 +564,7 @@
             "description": "Base con borde antideslizante; no es necesario fijarla al suelo"
           },
           {
-            "description": "Estructura construida en acero macizo, con tratamiento antioxidante y pintada con pintura epóxica, proporcionando mayor resistencia y durabilidad al conjunto",
+            "description": "Estructura construida en acero macizo, con tratamiento antioxidante y pintada con pintura epóxica, proporcionando mayor resistencia y durabilidad al conjunto"
           },
           {
             "description": "Sistema tipo pantográfico de elevación fabricado en chapa de acero, ofrece mayor resistencia y capacidad de elevación de hasta 200 kg"

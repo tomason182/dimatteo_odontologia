@@ -26,6 +26,12 @@ switch ($slug) {
   case "s502":
     $chair = $repository->findBySlug("s502");
     break;
+  case "d703":
+    $chair = $repository->findBySlug("d703");
+    break;
+  case "702":
+    $chair = $repository->findBySlug("d702");
+    break;
   default:
     http_response_code(404);
     require __DIR__ . "/../Views/pages/404.php";
