@@ -107,6 +107,47 @@
 
     </div>
 
+    <div class="brand-card">
+      <div class="brand-card__image">
+
+        <img
+          src="/assets/img/hero/sillon_gpt.png"
+          alt="Sillones Suntem">
+
+      </div>
+      <div class="brand-card__content">
+
+        <span class="brand-card__subtitle">
+          Marca internacional
+        </span>
+
+        <h3 class="brand-card__title">
+          Foshan Suntem Medical Instrument.
+        </h3>
+
+        <p>
+          Suntem es un fabricante internacional de equipamiento odontológico con sede en China. Especializada en el desarrollo
+          de sillones dentales y soluciones para consultorios, la marca combina tecnología, funcionalidad y diseño para ofrecer
+          equipos confiables con una excelente relación costo-beneficio, presentes en numerosos mercados alrededor del mundo.
+        </p>
+
+        <div class="brand-card__badges">
+
+          <span>Presencia internacional</span>
+
+          <span>Servicio técnico oficial</span>
+
+        </div>
+
+        <a href="<?= router("brand", ["slug" => "suntem"]); ?>" class="btn">
+          Ver productos Suntem
+        </a>
+
+      </div>
+
+
+    </div>
+
 
   </div>
 
