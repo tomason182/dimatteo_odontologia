@@ -27,7 +27,9 @@ switch ($slug) {
     $chair = $repository->findBySlug("s502");
     break;
   default:
-    require __DIR__ . "../Views/pages/404.php";
+    http_response_code(404);
+    require __DIR__ . "/../Views/pages/404.php";
+    break;
 }
 
 require __DIR__ . "/../Views/pages/model.php";

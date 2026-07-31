@@ -24,15 +24,6 @@ switch ($page) {
     require "../app/Controllers/ModelController.php";
     break;
   default:
+    http_response_code(404);
     require "../app/Views/pages/404.php";
 }
-
-
-$routes = [
-  "home" => "../app/Views/pages/home.php",
-  "modelos" => "../app/Controllers/ModelController.php",
-  "saevo" => "../app/Controllers/SaevoController.php",
-  "d700" => "pages/d700.php",
-  "faq" => "pages/faq.php",
-  "services" => "pages/services.php"
-];
