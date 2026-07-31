@@ -33,7 +33,6 @@
             <div class="chair-card__actions">
 
               <a class="chair-card__btn" href="<?= router("model", ["slug" => $chair->getSlug()])  ?>">Ver detalles </a>
-              <a class="chair-card__btn chair-card__chat-btn" href="#">Contactar</a>
             </div>
           </div>
         </article>

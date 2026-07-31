@@ -1,4 +1,4 @@
-<section class="container about-us">
+<section class="container about-us" id="about-us">
   <span class="section_subtitle">Sobre nosotros</span>
   <h2 class="section_title">¿Por qué elegirnos?</h2>
   <div class="about-us__card-container">

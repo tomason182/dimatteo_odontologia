@@ -1,3 +1,7 @@
+<?php
+$currentPage = "home";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <?php include __DIR__ . "/head.php"; ?>

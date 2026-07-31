@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+$features = $chair->getFeatures();
+$first_key = array_key_first($features);
+$technicals = $chair->getTechnicalSpecifications();
+?>
 
 <html lang="es">
 <?php include __DIR__ . "/head.php" ?>;
@@ -26,12 +31,28 @@
         <a class="btn btn__presupuesto">Solicitar presupuesto</a>
       </div>
     </div>
+
+    <div class="model__specifications__details">
+      <?php foreach ($features as $key => $feature): ?>
+
+        <details>
+          <summary><?= $feature["title"]; ?></summary>
+
+          <ul>
+            <?php foreach ($feature["items"] as $items): ?>
+
+              <li><?= $items["description"]; ?></li>
+
+            <?php endforeach; ?>
+
+          </ul>
+
+        </details>
+      <?php endforeach; ?>
+
+    </div>
     <div class="model__specifications">
-      <?php
-      $features = $chair->getFeatures();
-      $first_key = array_key_first($features);
-      $technicals = $chair->getTechnicalSpecifications();
-      ?>
+
       <nav class="tabs">
         <ul class="tabs__list">
 

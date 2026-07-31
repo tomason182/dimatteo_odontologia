@@ -1,3 +1,8 @@
+<?php
+$aboutLink = (isset($currentPage) && $currentPage === "home") ? "#about-us" : "/#about-us"
+
+?>
+
 <header class="header">
 
   <div class="container header__container">
@@ -29,7 +34,7 @@
           <a href="#">Servicio Técnico</a>
         </li>
         <li>
-          <a href="#">Nosotros</a>
+          <a href="<?= $aboutLink ?>">Nosotros</a>
         </li>
         <li>
           <a href="#">FAQ</a>

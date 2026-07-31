@@ -967,7 +967,7 @@
         ]
       },
       "modulo_dental": {
-        "tile": "Módulo dental",
+        "title": "Módulo dental",
         "items": [
           {
             "description": "Fabricado en polietileno de alto impacto"
