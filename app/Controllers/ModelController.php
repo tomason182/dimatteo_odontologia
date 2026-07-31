@@ -29,8 +29,17 @@ switch ($slug) {
   case "d703":
     $chair = $repository->findBySlug("d703");
     break;
-  case "702":
+  case "d702":
     $chair = $repository->findBySlug("d702");
+    break;
+  case "307":
+    $chair = $repository->findBySlug("307");
+    break;
+  case "303-pro":
+    $chair = $repository->findBySlug("303-pro");
+    break;
+  case "302-pro":
+    $chair = $repository->findBySlug("302-pro");
     break;
   default:
     http_response_code(404);

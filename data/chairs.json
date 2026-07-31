@@ -2,14 +2,20 @@
   {
     "slug": "307",
     "brand": "suntem",
-    "name": "307",
-    "description": "",
-    "shortDescription": "",
+    "name": "Sillón Suntem modelo 307",
+    "description": "El Suntem 307 es un sillón y equipo odontológico completo de alta gama que destaca por su estructura de acero resistente, tapizado anatómico de cuero y panel digital multifunción",
+    "shortDescription": "El Suntem 307 es un sillón y equipo odontológico completo de alta gama que destaca por su estructura de acero resistente, tapizado anatómico de cuero y panel digital multifunción",
     "gallery": [
       "/assets/img/brands/suntem_307.png"
     ],
     "catalogPdf": "",
-    "highlights": [],
+    "highlights": [
+      "Sistema colibrí o colgante",
+      "Bacha de vidrio",
+      "10 colores dispobibles",
+      "Alta iluminación",
+      "3 salidas neumáticas mas jeringa triple"
+    ],
     "technicalSpecifications": {},
     "features": {
       "unidad_de_agua": {
@@ -90,14 +96,19 @@
   {
     "slug": "303-pro",
     "brand": "suntem",
-    "name": "303 PRO",
-    "description": "",
-    "shortDescription": "",
+    "name": "Sillón Suntem modelo 303 PRO",
+    "description": "El Suntem 303 Pro es un sillón y equipo dental moderno que cuenta con sistema de mangueras colibrí o calgante, panel de control dual y tres memorias programables. Ofrece alta comodidad y eficiencia para el trabajo diario en la clínica dental",
+    "shortDescription": "El Suntem 303 Pro es un sillón y equipo dental moderno que cuenta con sistema de mangueras colibrí o colgante, panel de control dual y tres memorias programables. Ofrece alta comodidad y eficiencia para el trabajo diario en la clínica dental",
     "gallery": [
       "/assets/img/brands/suntem_303_pro_colgante.png"
     ],
     "catalogPdf": "",
-    "highlights": [],
+    "highlights": [
+      "Sistema colibrí o colgante",
+      "Panel digital multifunción",
+      "6 leds - hasta 45.000 lux",
+      "Jeringa triple"
+    ],
     "technicalSpecifications": {},
     "features": {
       "platina_principal": {
@@ -204,14 +215,19 @@
   {
     "slug": "302-pro",
     "brand": "suntem",
-    "name": "302 PRO",
-    "description": "",
-    "shortDescription": "",
+    "name": "Sillón Suntem modelo 302 PRO",
+    "description": "El Suntem 302 Pro es un sillón y unidad dental ergonómico de alta gama que cuenta con memorias programables, eyectores de succión y opciones de configuración para diestros y zurdos",
+    "shortDescription": "El Suntem 302 Pro es un sillón y unidad dental ergonómico de alta gama que cuenta con memorias programables, eyectores de succión y opciones de configuración para diestros y zurdos",
     "gallery": [
       "/assets/img/brands/suntem_302_pro_colgante_zurdos.png"
     ],
     "catalogPdf": "",
-    "highlights": [],
+    "highlights": [
+      "Panel digital multifunción",
+      "Jeringa triple",
+      "Negatoscopia led amplio (solo version colgante)",
+      "Salivadera con giro 180°"
+    ],
     "technicalSpecifications": {},
     "features": {
       "platina_principal": {
@@ -312,9 +328,9 @@
   {
     "slug": "d703",
     "brand": "d700",
-    "name": "D703",
-    "description": "",
-    "shortDescription": "",
+    "name": "Sillón D700 modelo d703",
+    "description": "El sillón D703 ofrece las prestaciones que los dentistas necesitan a un precio asequible. Es más cómodo, cuenta con una base antideslizante (sin necesidad de fijación al suelo) y un reposacabezas de doble articulación, y la unidad de tratamiento está diseñada para alojar hasta cinco instrumentos.",
+    "shortDescription": "El sillón D703 ofrece las prestaciones que los dentistas necesitan a un precio asequible. Es más cómodo, cuenta con una base antideslizante (sin necesidad de fijación al suelo) y un reposacabezas de doble articulación, y la unidad de tratamiento está diseñada para alojar hasta cinco instrumentos.",
     "gallery": [
       "/assets/img/brands/d703.png"
     ],
@@ -547,9 +563,9 @@
   {
     "slug": "d702",
     "brand": "d700",
-    "name": "D702",
-    "description": "",
-    "shortDescription": "",
+    "name": "Sillón D700 modelo d702",
+    "description": "La unidad dental D702 ofrece la evolución que los cirujanos dentales necesitan a un precio asequible. Brinda mayor comodidad y cuenta con una base antideslizante (que no requiere anclaje al suelo) y un reposacabezas extraíble, además de estar diseñada para alojar hasta cinco instrumentos.",
+    "shortDescription": "La unidad dental D702 ofrece la evolución que los cirujanos dentales necesitan a un precio asequible. Brinda mayor comodidad y cuenta con una base antideslizante (que no requiere anclaje al suelo) y un reposacabezas extraíble, además de estar diseñada para alojar hasta cinco instrumentos.",
     "gallery": [
       "/assets/img/brands/d703.png"
     ],
@@ -755,7 +771,7 @@
   {
     "slug": "s203",
     "brand": "saevo",
-    "name": "S203",
+    "name": "Sillón Saevo modelo S203",
     "description": "",
     "shortDescription": "El Saevo S203 es un sillón odontológico diseñado para consultorios que buscan confiabilidad, ergonomía y facilidad de uso en la práctica diaria. Su estructura robusta, el sistema de elevación electromecánico y el reflector LED de bajo consumo ofrecen un entorno de trabajo cómodo tanto para el profesional como para el paciente. Completan el conjunto un módulo dental funcional, unidad de agua de amplia movilidad y un diseño pensado para brindar durabilidad y un mantenimiento sencillo.",
     "gallery": [
@@ -1012,7 +1028,7 @@
   {
     "slug": "s303",
     "brand": "saevo",
-    "name": "S303",
+    "name": "Sillón Saevo modelo S303",
     "description": "",
     "shortDescription": "El Saevo S303 combina tecnología, ergonomía y versatilidad para profesionales que buscan un equipamiento más completo. Incorpora un avanzado sistema de control mediante Panel PAD y joystick multifunción, además de un brazo de apoyo abatible que mejora el acceso del paciente y la comodidad durante el tratamiento. Su unidad de agua, reflector LED y componentes de alta calidad convierten al S303 en una solución preparada para acompañar el crecimiento de cualquier consultorio.",
     "gallery": [
@@ -1293,7 +1309,7 @@
   {
     "slug": "s404",
     "brand": "saevo",
-    "name": "S404",
+    "name": "Sillón Saevo modelo S404",
     "description": "",
     "shortDescription": "El Saevo S404 está diseñado para consultorios que requieren un mayor nivel de confort, tecnología y eficiencia en la práctica clínica diaria. Su diseño ergonómico, junto con un sistema de comandos intuitivo y componentes de alto rendimiento, permite optimizar el flujo de trabajo y brindar una experiencia más cómoda tanto para el profesional como para el paciente. La calidad de sus materiales, la amplia movilidad de sus módulos y la confiabilidad característica de Saevo lo convierten en una excelente opción para quienes buscan un equipamiento moderno, duradero y preparado para un uso intensivo.",
     "gallery": [
@@ -1574,7 +1590,7 @@
   {
     "slug": "s502",
     "brand": "saevo",
-    "name": "S502",
+    "name": "Sillón Saevo modelo S502",
     "description": "",
     "shortDescription": "El Saevo S502 representa una solución de alta gama para clínicas y profesionales que buscan el máximo nivel de tecnología, ergonomía y prestaciones. Cada uno de sus componentes ha sido desarrollado para ofrecer precisión, comodidad y eficiencia durante procedimientos de distinta complejidad, favoreciendo una postura de trabajo más confortable y una mejor experiencia para el paciente. Su diseño contemporáneo, combinado con sistemas de control avanzados y la reconocida calidad de fabricación de Saevo, hacen del S502 una inversión pensada para consultorios que priorizan rendimiento, confiabilidad y una imagen profesional.",
     "gallery": [

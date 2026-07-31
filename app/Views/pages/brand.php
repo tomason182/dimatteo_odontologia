@@ -8,7 +8,7 @@
 
   <main>
     <section class="layout-hero">
-      <h1><?= $chairs[0]->getBrand()  ?></h1>
+      <h1><?= ucfirst($chairs[0]->getBrand())  ?></h1>
 
     </section>
     <section class="container catalog">

@@ -3,19 +3,20 @@
 $features = $chair->getFeatures();
 $first_key = array_key_first($features);
 $technicals = $chair->getTechnicalSpecifications();
+$brand = $chair->getBrand();
 ?>
 
 <html lang="es">
-<?php include __DIR__ . "/head.php" ?>;
+<?php include __DIR__ . "/head.php"; ?>
 
 <body>
-  <?php include __DIR__ . "/../header.php" ?>
+  <?php include __DIR__ . "/../header.php"; ?>
 
 </body>
 
 <main>
   <section class="layout-hero">
-    <h1><?= $chair->getBrand() . " " . $chair->getSlug(); ?></h1>
+    <h1><?= ucfirst($brand) ?></h1>
   </section>
 
   <section class="model__container container">
