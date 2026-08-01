@@ -8,8 +8,9 @@
 
   <main>
     <section class="models container">
+
+      <h1>Todos lo productos</h1>
       <div class="models__container">
-        <h1>Todos lo productos</h1>
         <?php foreach ($chairs as $chair): ?>
 
           <div class="chair-card-mini">

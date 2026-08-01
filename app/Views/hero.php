@@ -11,7 +11,7 @@
       </p>
 
       <div class="hero_actions">
-        <a class="hero_btn hero_btn_secondary" href="<?= router("models", ["slug" => "all"]) ?>">Ver modelos</a>
+        <a class="hero_btn hero_btn_secondary" href="#nuestras_marcas">Ver modelos</a>
       </div>
 
     </div>

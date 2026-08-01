@@ -226,6 +226,33 @@
 
 
 /* ===============================================
+ *  Modelos
+ * ===============================================
+ * */
+
+.models__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.chair-card-mini__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.chair-card-mini__details span {
+  font-size: 0.75rem;
+}
+
+.chair-card-mini__details a {
+  font-size: 0.8rem;
+  padding-top: 8px;
+  text-decoration: underline;
+}
+
+
+/* ===============================================
  *  Error page
  * ===============================================
  * */

@@ -1,6 +1,6 @@
 <section class="brands section" id="brands">
 
-  <div class="container">
+  <div class="container" id="nuestras_marcas">
 
     <h2 class="section-title">Nuestras marcas</h2>
 
