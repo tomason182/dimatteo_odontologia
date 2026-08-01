@@ -30,7 +30,7 @@
   border: 1px solid var(--border-color);
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 1rem
 }
 
@@ -67,23 +67,37 @@
 .chair-card__actions {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
+  padding-top: 3rem;
+}
+
+.chair-card__msg-btn {
+  border: 1px solid var(--second-color-l);
+  color: var(--second-color-l);
+  padding: 0.33rem 1rem;
+  border-radius: 8px;
+  font-size: clamp(0.65rem, 2.5vw, 0.75rem);
+  font-weight: 800;
+
+}
+
+.chair-card__msg-btn:hover {
+  color: var(--second-color-d);
+  border-color: var(--second-color-d);
 }
 
 .chair-card__btn {
-  font-size: 0.875rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 0.25rem 1rem;
-  font-size: 0.75rem;
-  color: var(--text-color-light)
+  font-size: clamp(0.6rem, 2.5vw, 0.7rem);
+  color: var(--text-color-light);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .chair-card__btn:hover {
-  text-decoration: none;
-  color: #333;
-  border-color: #333;
+  color: var(--text-color-m);
+  text-decoration: underline;
 }
 
 .chair-card__chat-btn {

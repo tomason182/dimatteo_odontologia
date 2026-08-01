@@ -31,3 +31,30 @@ tabs.forEach(tab => {
     }
   })
 })
+
+// Stats counter
+
+function animateCounter(element, target, duration = 2000) {
+  const start = performance.now();
+  function step(now) {
+    const progress = Math.min((now - start) / duration, 1);
+
+    element.textContent = Math.floor(progress * target);
+
+    if (progress < 1) {
+      requestAnimationFrame(step);
+    } else {
+      element.textContent = target;
+    }
+  }
+
+  requestAnimationFrame(step)
+}
+
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach((counter) => {
+  const target = Number(counter.dataset.target);
+
+  animateCounter(counter, target, 2000);
+})

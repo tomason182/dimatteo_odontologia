@@ -1,6 +1,8 @@
 :root {
   /* Paleta de colores */
-  --primary: #2563eb;
+  --primary: #313b72;
+  --second-color-l: #62a87c;
+  --second-color-d: #364F3F;
   --secondary: #1f2937;
   --primary-dark: #1d4ed8;
   --primary-hover: #1d4ed8;
@@ -43,6 +45,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  min-width: 368px;
 }
 
 main {
