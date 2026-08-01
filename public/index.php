@@ -13,6 +13,7 @@ require_once __DIR__ . "/../app/helpers.php";
 $page = $_GET["page"] ?? "home";
 
 
+
 switch ($page) {
   case "home":
     require "../app/Views/pages/home.php";
@@ -22,6 +23,9 @@ switch ($page) {
     break;
   case "model":
     require "../app/Controllers/ModelController.php";
+    break;
+  case "models":
+    require "../app/Controllers/BrandController.php";
     break;
   default:
     http_response_code(404);

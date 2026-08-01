@@ -15,6 +15,12 @@ if (!isset($_GET["slug"])) {
 
 $brand = $_GET["slug"];
 
+if ($brand === "all") {
+  $chairs = $repository->findAll();
+  require __DIR__ . "/../Views/pages/modelos.php";
+  return;
+}
+
 $chairs = $repository->findByBrand($brand);
 
 if (empty($chairs)) {
