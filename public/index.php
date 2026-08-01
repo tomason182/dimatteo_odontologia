@@ -6,7 +6,6 @@ require_once __DIR__ . "/../vendor/autoload.php";
 $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->safeload();
 
-var_dump($_ENV["APP_ENV"]);
 
 if ($_ENV["APP_ENV"] === "production") {
   ini_set("display_errors", "0");
