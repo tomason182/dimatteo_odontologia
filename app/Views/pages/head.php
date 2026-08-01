@@ -14,4 +14,6 @@
   <link rel="stylesheet" href="../assets/css/components.css">
   <link rel="stylesheet" href="../assets/css/pages.css">
 
+  <script src="/assets/js/main.js" defer></script>
+
 </head>

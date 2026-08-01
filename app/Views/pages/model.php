@@ -124,6 +124,5 @@ $brand = $chair->getBrand();
 
 <?php include __DIR__ . "/../footer.php" ?>
 
-<script src="/assets/js/main.js"></script>
 
 </html>
