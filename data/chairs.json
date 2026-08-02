@@ -16,6 +16,58 @@
       "Alta iluminación",
       "3 salidas neumáticas mas jeringa triple"
     ],
+    "materials": {
+      "leader": {
+        "name": "Cuero",
+        "colors": [
+          {
+            "name": "Moca",
+            "hex": "#6d3bo7"
+          },
+          {
+            "name": "Mocchiato",
+            "hex": "#9c907c"
+          },
+          {
+            "name": "Expresso",
+            "hex": "#612718"
+          }
+        ]
+      },
+      "pvc": {
+        "name": "PVC",
+        "colors": [
+          {
+            "name": "sideral",
+            "hex": "#2a2e42"
+          },
+          {
+            "name": "eclipse",
+            "hex": "#414141"
+          },
+          {
+            "name": "boreal",
+            "hex": "#84c3ac"
+          },
+          {
+            "name": "bruma",
+            "hex": "#9d817b"
+          },
+          {
+            "name": "ciel",
+            "hex": "#53638b"
+          },
+          {
+            "name": "lumiere",
+            "hex": "#d9d4cf"
+          },
+          {
+            "name": "alvor",
+            "hex": "#a69483"
+          }
+        ]
+      }
+    },
     "technicalSpecifications": {},
     "features": {
       "unidad_de_agua": {
