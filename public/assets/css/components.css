@@ -98,6 +98,11 @@
   color: var(--second-color-d);
 }
 
+.nav_list li:last-child a:hover svg {
+  fill: var(--second-color-d);
+  stroke: var(--second-color-d);
+}
+
 
 .nav_list li:last-child a::after {
   display: none;
