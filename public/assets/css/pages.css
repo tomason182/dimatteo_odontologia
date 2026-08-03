@@ -124,8 +124,28 @@
   gap: 1rem
 }
 
+.chair-material {
+  font-size: 0.75rem;
+  color: #333;
+}
+
+.chair-colors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 3rem;
+}
+
+.chair-color {
+  width: 30px;
+  height: 30px;
+}
+
 .btn__presupuesto {
   max-width: 200px;
+  align-self: flex-end;
+
 }
 
 .tabs__list {

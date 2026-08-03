@@ -29,6 +29,31 @@ $brand = $chair->getBrand();
 
         <p><?= $chair->getShortDescription(); ?></p>
 
+        <div class="chair-material__container">
+          <h4>Colores disponibles</h4>
+
+          <?php foreach ($chair->getMaterials() as $material):  ?>
+
+
+            <span class="chair-material"><?= $material["name"]; ?></span>
+
+            <div class="chair-colors">
+
+              <?php foreach ($material["colors"] as $color): ?>
+
+                <span
+                  class="chair-color"
+                  style="background-color: <?= htmlspecialchars($color["hex"]) ?>;"
+                  title="<?= htmlspecialchars($color["name"]) ?>">
+                </span>
+
+              <?php endforeach; ?>
+
+            </div>
+
+
+          <?php endforeach; ?>
+        </div>
         <a class="btn btn__presupuesto">Solicitar presupuesto</a>
       </div>
     </div>
