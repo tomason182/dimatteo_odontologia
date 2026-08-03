@@ -82,18 +82,17 @@
   gap: 0.5rem;
   justify-content: space-between;
   align-items: center;
-}
 
-.nav_list li:last-child a {
-  font-weight: 800;
+  font-weight: 600;
   padding: 0.25rem .75rem;
   color: var(--second-color-l);
-  border: 2px solid var(--second-color-l);
+  border: 1px solid var(--second-color-l);
   border-radius: 1rem;
 }
 
-.nav_list li:last-child a:hover {
-  border: 2px solid var(--second-color-d);
+
+.contacto-btn a:hover {
+  border: 1px solid var(--second-color-d);
 
   color: var(--second-color-d);
 }

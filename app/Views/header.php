@@ -41,7 +41,7 @@ $aboutLink = (isset($currentPage) && $currentPage === "home") ? "#about-us" : "/
         </li>
         <li class="contacto-btn">
           <a href="#">
-            <svg fill="#62a87c" width=20px height=20px viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#62a87c">
+            <svg fill="#62a87c" width=20px height=20px viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#62a87c" stroke-width="0px">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
               <g id="SVGRepo_iconCarrier">
