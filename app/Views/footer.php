@@ -1,8 +1,13 @@
+<?php
+$brandsLink = isset($currentPage) && $currentPage === "home" ? "#nuestras_marcas" : "/#nuestras_marcas";
+$aboutUsLink = isset($currentPage) && $currentPage === "home" ? "#about-us" : "/#about-us";
+?>
+
 <footer class="footer">
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <h3>Di Matteo Odontología</h3>
+        <h3>RoD Odontología</h3>
 
         <p>
           Equipamiento odontológico para profesionales.
@@ -14,8 +19,8 @@
         <h4>Navegación</h4>
 
         <ul>
-          <li><a href="#">Marcas</a></li>
-          <li><a href="#">Nosotros</a></li>
+          <li><a href="<?= $brandsLink; ?>">Marcas</a></li>
+          <li><a href="<?= $aboutUsLink; ?>">Nosotros</a></li>
           <li><a href="#">Servicio Técnico</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
@@ -26,7 +31,7 @@
         <ul>
           <li>Olavarria, Buenos Aires</li>
           <li>+549 xxx xxxx xxxxx</li>
-          <li>soporte@dimatteoodontologia.com</li>
+          <li>soporte@rododontologia.com</li>
         </ul>
       </div>
 
