@@ -18,6 +18,8 @@ class Chair
     /** @var array<string> */
     public readonly array $highlights,
 
+    public readonly array $materials,
+
     /** @var array<string, array<string | array> */
     public readonly array $features,
 
@@ -49,6 +51,11 @@ class Chair
   public function getHighlights(): array
   {
     return $this->highlights;
+  }
+
+  public function getMaterials(): array
+  {
+    return $this->materials;
   }
 
   public function getHeroImg(): string
